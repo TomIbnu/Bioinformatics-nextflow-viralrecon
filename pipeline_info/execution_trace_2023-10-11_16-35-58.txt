@@ -1,0 +1,2 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	21/d918dd	1435	NFCORE_VIRALRECON:ILLUMINA:INPUT_CHECK:SAMPLESHEET_CHECK (samplesheet.csv)	FAILED	126	2023-10-11 16:37:56.164	615ms	598ms	-	-	-	-	-
