@@ -1,0 +1,13 @@
+nextflow run nf-core/viralrecon -profile docker \
+--max_memory '7.GB' --max_cpus 14 \
+--input samplesheet.csv \
+--outdir results/viralrecon \
+--protocol amplicon \
+--genome 'MN908947.3' \
+--primer_set artic \
+--primer_set_version 3 \
+--skip_kraken2 \
+--skip_assembly \
+--skip_pangolin \
+--skip_nextclade \
+--platform illumina
